@@ -1,25 +1,16 @@
-# Pancake Toolkit
+# RugZombie Toolkit
 
 This repository is a monorepo manage with [yarn workspaces](https://classic.yarnpkg.com/en/docs/workspaces/) and [Lerna](https://lerna.js.org/). 
 
 ## Packages
 
-- [pancake-uikit](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit) : React components used to build the Pancake UI
-- [eslint-config-pancake](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/eslint-config-pancake) : An ESLint config for pancake, with Typescript and Prettier support
+- [rug-zombie-uikit](https://github.com/Rug-Zombie/rug-zombie-uikit/tree/master) : React components used to build the RugZombie UI
+- [catacombs-uikit](https://github.com/Rug-Zombie/catacombs-uikit/tree/master) : React components used to build the Catacombs UI
 
-## How to use
+## Making Changes
 
-Clone the repository 
-
-```
-git clone git@github.com:pancakeswap/pancake-toolkit.git
-```
-
-Run yarn at the root of the workspace
-
-```
-cd pancake-toolkit
-yarn
-```
-
-Then, refer to the readme of each project.
+- Clone the repository 
+- Make change to component in [packages/rug-zombie-uikit](https://github.com/Rug-Zombie/rug-zombie-uikit/tree/master) or [packages/catacombs-uikit](https://github.com/Rug-Zombie/catacombs-uikit/tree/master) repo.
+- Run `yarn build`
+- Commit and push changes
+- Update dependencies in `rug-zombie-frontend` for changes to take effect.
