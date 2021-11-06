@@ -1,0 +1,3 @@
+[submodule "packages/rug-zombie-uikit"]
+	path = packages/rug-zombie-uikit
+	url = https://github.com/Rug-Zombie/rug-zombie-uikit.git
