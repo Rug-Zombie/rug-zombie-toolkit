@@ -1,3 +1,6 @@
 [submodule "packages/rug-zombie-uikit"]
 	path = packages/rug-zombie-uikit
 	url = https://github.com/Rug-Zombie/rug-zombie-uikit.git
+[submodule "packages/catacombs-uikit"]
+	path = packages/catacombs-uikit
+	url = https://github.com/Rug-Zombie/catacombs-uikit.git
